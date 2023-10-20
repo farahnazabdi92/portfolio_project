@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da89d0d-5fde-4ba0-89d7-2a823a17ccbf" name="Changes" comment="change footer style">
+    <list default="true" id="4da89d0d-5fde-4ba0-89d7-2a823a17ccbf" name="Changes" comment="change about page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
       <updated>1697790722122</updated>
       <workItem from="1697790723166" duration="292000" />
       <workItem from="1697792505261" duration="32000" />
-      <workItem from="1697792549372" duration="9608000" />
+      <workItem from="1697792549372" duration="9794000" />
     </task>
     <task id="LOCAL-00001" summary="test commit with webstorm">
       <option name="closed" value="true" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697809614745</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change about page">
+      <option name="closed" value="true" />
+      <created>1697809797358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697809797358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +150,7 @@
     <MESSAGE value="Create Contact page" />
     <MESSAGE value="change responsive navbar" />
     <MESSAGE value="change footer style" />
-    <option name="LAST_COMMIT_MESSAGE" value="change footer style" />
+    <MESSAGE value="change about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="change about page" />
   </component>
 </project>
