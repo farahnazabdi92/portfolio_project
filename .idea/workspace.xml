@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da89d0d-5fde-4ba0-89d7-2a823a17ccbf" name="Changes" comment="fixed style.css">
+    <list default="true" id="4da89d0d-5fde-4ba0-89d7-2a823a17ccbf" name="Changes" comment="refactor and bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/babaGorio.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/images/babaGorio.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/dastayefski.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dastayefski.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/divane.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/divane.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/eteraf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/eteraf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/farahnaz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/farahnaz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/jozazkol.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/images/jozazkol.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/morshed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/morshed.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/ravanshenasi.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/images/ravanshenasi.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/vangog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/vangog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/books.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +62,7 @@
       <updated>1697790722122</updated>
       <workItem from="1697790723166" duration="292000" />
       <workItem from="1697792505261" duration="32000" />
-      <workItem from="1697792549372" duration="1299000" />
+      <workItem from="1697792549372" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="test commit with webstorm">
       <option name="closed" value="true" />
@@ -93,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697793199098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor and bug fix">
+      <option name="closed" value="true" />
+      <created>1697793915328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697793915328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit with webstorm" />
     <MESSAGE value="fixed style.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed style.css" />
+    <MESSAGE value="refactor and bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor and bug fix" />
   </component>
 </project>
