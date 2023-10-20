@@ -2,16 +2,17 @@
     height: 24.75px;
     flex-shrink: 0;
 }
+
 .headerText {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     color: aliceblue;
     text-align: center;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-top: 47px;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 47px;
 }
 
 .homeheader {
@@ -61,65 +62,66 @@ footer {
     font-family: 'Nunito', sans-serif;
     margin-top: 20px;
     font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
-    .header-section {
-        color: black;
-        text-align: center;
-        font-family: 'Nunito', sans-serif;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-top: 26px;
-    }
-    
-    .nameHeading {
-        color: black;
-        font-size: 64px;
-        font-family: 'Nunito', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-left: 10px;
-    }
-    
-    .paragraphHeading {
-        color: black;
-        font-family: 'Nunito', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        padding-top: 36px;
-        padding-left: 10px;
-        
-        
-                .socialmediaIcons {
-                        color: black;
-                        font-family: 'Nunito', sans-serif;
-                        font-size: 18px;
-                        font-style: normal;
-                        font-weight: 700;
-                                            line-height: 30px;
-                                            padding-left: 10px;
-                                            padding-right: 10px;
-                                            align-items: flex-start;
-                                            /*text-align: left;*/
-                                            gap: 30px;
-                                        }
-                    
-                                        .favoriteheader {
-                                            text-align: center;
-                                            font-family: 'Nunito', sans-serif;
-                                            font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+
+.header-section {
+    color: black;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 26px;
+}
+
+.nameHeading {
+    color: black;
+    font-size: 64px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.paragraphHeading {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 36px;
+    padding-left: 10px;
+}
+
+.socialmediaIcons {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: flex-start;
+    /*text-align: left;*/
+    gap: 30px;
+}
+
+.favoriteheader {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .contact {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -128,29 +130,31 @@ footer {
     font-weight: 400;
     line-height: 30px;
 }
-@media(max-width:900px) {
+
+@media (max-width: 900px) {
 
     h1,
     h3,
-        header {
+    header {
         font-size: 16px;
         line-height: 20px;
         padding-right: 0px;
         padding-left: 0px;
-        
-footer>p {
-    text-align: center;
-}
+    }
 
-.nameHeading {
-    font-size: 44px;
-    text-align: center;
-    padding-top: 30px;
+    footer > p {
+        text-align: center;
+    }
 
-}
+    .nameHeading {
+        font-size: 44px;
+        text-align: center;
+        padding-top: 30px;
 
-.paragraphHeading {
-    text-align: center;
-    padding-bottom: 15px;
-}
+    }
+
+    .paragraphHeading {
+        text-align: center;
+        padding-bottom: 15px;
+    }
 }
