@@ -2,123 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Patrick+Hand&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&family=Patrick+Hand&family=Roboto&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Patrick+Hand&family=Roboto&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&family=Patrick+Hand&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Patrick+Hand&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="./style/style.css"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 
-    <link rel="stylesheet" href="./style/style.css" />
+    <title>Farahnaz library</title>
+</head>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-<script src="https://kit.fontawesome.com/be96c0fc27.js" crossorigin="anonymous"></script>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Shecode logo" class="navbar-logo"/>
+        </a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="coverImage">
+    <h1 class="headerText"> Book Collection</h1>
+    <h3 class="homeHeader">Find a variety of Books that are Amazing, emotional and controversial here</h3>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/babaGorio.JPG" class="img-fluid rounded "/>
+            <p class="InfoBook">Père Goriot by Honoré de Balzac </p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/eteraf.jpg" class="img-fluid rounded"/>
+            <p class="InfoBook"> Eteraf by Leo Tolstoy </p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/dastayefski.jpg" class="img-fluid rounded"/>
+            <p class="InfoBook"> Fyodor Dostoevsky by susan li Anderson</p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/divane.jpg" class="img-fluid rounded"/>
+            <p class="InfoBook">The Diary of a madman by Nikolai Gogol</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/morshed.jpg" class="img-fluid rounded"/>
+            <p class="InfoBook">The Master and Margarita by Mikhail Bulgakov
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/vangog.jpg" class="img-fluid rounded"/>
+            <p class="InfoBook">Lust for Life by Irving Stone
+            </p>
+        </div>
+    </div>
+</div>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Shecode logo" class="navbar-logo"/>
+    </a>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"> <i
+                class="fa-brands fa-square-facebook"></i>
+        </a></li>
+        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/mybookshelf_f.a/"><i
+                class="fa-brands fa-instagram"></i> </a></li>
+        <li class="ms-3"><a class="text-muted" href="www.linkedin.com/in/farahnazabdi"><i
+                class="fa-brands fa-linkedin"></i></a>
+        </li>
+    </ul>
+    <p class="col-md-4 mb-0 text-muted text-end pt=0">© 2023 Farahnaz Abdi rights reserved</p>
+</footer>
+
+<script src="https://kit.fontawesome.com/be96c0fc27.js"
+        crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <title>Farahnaz library</title>
-
-    </head>
-    
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="Shecode logo" class="navbar-logo" />
-                </a>
-        
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="books.html">Books</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <header class="coverImage">
-            <h1 class="headerText"> Book Collection</h1>
-            <h3 class="homeheader">Find a variety of Books that are Amazing, emotional and controversial here</h3>
-        </header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="images/babaGorio.JPG" class="img-fluid rounded " />
-                    <p class="InfoBook">Père Goriot by Honoré de Balzac </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/eteraf.jpg" class="img-fluid rounded" />
-                    <p class="InfoBook"> Eteraf by Leo Tolstoy </p>
-        
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="images/dastayefski.jpg" class="img-fluid rounded" />
-                    <p class="InfoBook"> Fyodor Dostoevsky by susan li Anderson</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/divane.jpg" class="img-fluid rounded" />
-                    <p class="InfoBook">The Diary of a madman by Nikolai Gogol</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="images/morshed.jpg" class="img-fluid rounded" />
-                    <p class="InfoBook">The Master and Margarita by Mikhail Bulgakov
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/vangog.jpg" class="img-fluid rounded" />
-                    <p class="InfoBook">Lust for Life by Irving Stone
-                    </p>
-                </div>
-            </div>
-        </div>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="Shecode logo" class="navbar-logo" />
-            </a>
-        
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"> <i class="fa-brands fa-square-facebook"></i>
-                    </a></li>
-                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/mybookshelf_f.a/"><i
-                            class="fa-brands fa-instagram"></i> </a></li>
-                <li class="ms-3"><a class="text-muted" href="www.linkedin.com/in/farahnazabdi"><i class="fa-brands fa-linkedin"></i></a>
-                </li>
-            </ul>
-
-            <p class="col-md-4 mb-0 text-muted text-end pt=0">© 2023 Farahnaz Abdi rights reserved</p>
-    
-        </footer>
 </body>
-
-
 </html>
