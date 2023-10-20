@@ -129,6 +129,9 @@ footer {
     font-weight: 400;
     line-height: 30px;
 }
+nav a:hover{
+    color:purple !important;
+}
 
 @media (max-width: 900px) {
 
