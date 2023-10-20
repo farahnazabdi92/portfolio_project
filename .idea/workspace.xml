@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4da89d0d-5fde-4ba0-89d7-2a823a17ccbf" name="Changes" comment="refactor and bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <updated>1697790722122</updated>
       <workItem from="1697790723166" duration="292000" />
       <workItem from="1697792505261" duration="32000" />
-      <workItem from="1697792549372" duration="2092000" />
+      <workItem from="1697792549372" duration="2731000" />
     </task>
     <task id="LOCAL-00001" summary="test commit with webstorm">
       <option name="closed" value="true" />
@@ -88,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697793915328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor and bug fix">
+      <option name="closed" value="true" />
+      <created>1697795103271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697795103271</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
