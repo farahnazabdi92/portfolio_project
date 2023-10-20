@@ -14,7 +14,7 @@
         padding-top: 47px;
 }
 
-h3 {
+.homeheader {
     font-family: 'Nunito', sans-serif;
     color: aliceblue;
     text-align: center;
@@ -96,14 +96,14 @@ footer {
         line-height: 30px;
         padding-top: 36px;
         padding-left: 10px;
-    }
         
-                                        .socialmediaIcons {
-                                            color: black;
-                                            font-family: 'Nunito', sans-serif;
-                                            font-size: 18px;
-                                            font-style: normal;
-                                            font-weight: 700;
+        
+                .socialmediaIcons {
+                        color: black;
+                        font-family: 'Nunito', sans-serif;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
                                             line-height: 30px;
                                             padding-left: 10px;
                                             padding-right: 10px;
@@ -120,6 +120,14 @@ footer {
     font-weight: 700;
     line-height: normal;
 }
+.contact {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 @media(max-width:900px) {
 
     h1,
@@ -129,7 +137,7 @@ footer {
         line-height: 20px;
         padding-right: 0px;
         padding-left: 0px;
-    }
+        
 footer>p {
     text-align: center;
 }
